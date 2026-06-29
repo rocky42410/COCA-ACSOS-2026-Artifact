@@ -187,7 +187,7 @@ CSV -> windowing (TxD) -> Encoder -> latent z -> Decoder -> x_hat -> re-encode z
 `acquisition/` holds the Unitree Go2 SDK logger, the reset-procedure script
 (`reset.cpp`), and the feature config. These require a physical robot + vendor
 SDK (`unitree_sdk2` 2.0.0, CycloneDDS 0.10.2, gcc 9.4.0, Ubuntu 20.04) and are
-**not** part of the reviewer repro path; provided for reuse. See
+**not** part of the reviewer repro path. See
 [`acquisition/README.md`](acquisition/README.md).
 
 ---
