@@ -1,0 +1,91 @@
+index,name,enabled,description
+0,accel_x_mean,1,Accelerometer X mean (100ms window)
+1,accel_x_std,1,Accelerometer X std dev (100ms window)
+2,accel_x_max,1,Accelerometer X max (100ms window)
+3,accel_y_mean,1,Accelerometer Y mean
+4,accel_y_std,1,Accelerometer Y std dev
+5,accel_y_max,1,Accelerometer Y max
+6,accel_z_mean,1,Accelerometer Z mean (expect ~9.81 at rest)
+7,accel_z_std,1,Accelerometer Z std dev
+8,accel_z_max,1,Accelerometer Z max
+9,gyro_x_mean,1,Gyroscope X mean (roll rate)
+10,gyro_x_std,1,Gyroscope X std dev
+11,gyro_x_max,1,Gyroscope X max
+12,gyro_y_mean,1,Gyroscope Y mean (pitch rate)
+13,gyro_y_std,1,Gyroscope Y std dev
+14,gyro_y_max,1,Gyroscope Y max
+15,gyro_z_mean,1,Gyroscope Z mean (yaw rate)
+16,gyro_z_std,1,Gyroscope Z std dev
+17,gyro_z_max,1,Gyroscope Z max
+18,pos_x,0,Sport estimator position X (drift-prone)
+19,pos_y,0,Sport estimator position Y
+20,pos_z,0,Sport estimator position Z
+21,vel_x,1,Body frame velocity X
+22,vel_y,1,Body frame velocity Y
+23,vel_z,1,Body frame velocity Z
+24,roll,1,Body roll from IMU RPY
+25,pitch,1,Body pitch from IMU RPY
+26,yaw,0,Body yaw (drift-prone unwrapped)
+27,yaw_speed,1,Yaw angular velocity
+28,foot_force_0,1,FR foot contact force
+29,foot_force_1,1,FL foot contact force
+30,foot_force_2,1,RR foot contact force
+31,foot_force_3,1,RL foot contact force
+32,body_height,1,Body height above ground
+33,mode,1,Robot mode (use for per-mode model selection)
+34,gait_type,1,Gait type (use for per-mode model selection)
+35,error_code,0,Error code (near-constant on healthy robot)
+36,power_v_mean,1,Battery voltage mean (V)
+37,power_v_std,1,Battery voltage std (load-induced sag)
+38,power_a_mean,1,Battery current mean (A; negative = discharge)
+39,power_a_std,1,Battery current std (transient draw spikes)
+40,q_fr_hip,1,FR hip joint position (rad)
+41,q_fr_thigh,1,FR thigh joint position (rad)
+42,q_fr_calf,1,FR calf joint position (rad)
+43,q_fl_hip,1,FL hip joint position (rad)
+44,q_fl_thigh,1,FL thigh joint position (rad)
+45,q_fl_calf,1,FL calf joint position (rad)
+46,q_rr_hip,1,RR hip joint position (rad)
+47,q_rr_thigh,1,RR thigh joint position (rad)
+48,q_rr_calf,1,RR calf joint position (rad)
+49,q_rl_hip,1,RL hip joint position (rad)
+50,q_rl_thigh,1,RL thigh joint position (rad)
+51,q_rl_calf,1,RL calf joint position (rad)
+52,dq_fr_hip,1,FR hip joint velocity (rad/s)
+53,dq_fr_thigh,1,FR thigh joint velocity (rad/s)
+54,dq_fr_calf,1,FR calf joint velocity (rad/s)
+55,dq_fl_hip,1,FL hip joint velocity (rad/s)
+56,dq_fl_thigh,1,FL thigh joint velocity (rad/s)
+57,dq_fl_calf,1,FL calf joint velocity (rad/s)
+58,dq_rr_hip,1,RR hip joint velocity (rad/s)
+59,dq_rr_thigh,1,RR thigh joint velocity (rad/s)
+60,dq_rr_calf,1,RR calf joint velocity (rad/s)
+61,dq_rl_hip,1,RL hip joint velocity (rad/s)
+62,dq_rl_thigh,1,RL thigh joint velocity (rad/s)
+63,dq_rl_calf,1,RL calf joint velocity (rad/s)
+64,tau_fr_hip,1,FR hip torque estimate (Nm)
+65,tau_fr_thigh,1,FR thigh torque estimate (Nm)
+66,tau_fr_calf,1,FR calf torque estimate (Nm)
+67,tau_fl_hip,1,FL hip torque estimate (Nm)
+68,tau_fl_thigh,1,FL thigh torque estimate (Nm)
+69,tau_fl_calf,1,FL calf torque estimate (Nm)
+70,tau_rr_hip,1,RR hip torque estimate (Nm)
+71,tau_rr_thigh,1,RR thigh torque estimate (Nm)
+72,tau_rr_calf,1,RR calf torque estimate (Nm)
+73,tau_rl_hip,1,RL hip torque estimate (Nm)
+74,tau_rl_thigh,1,RL thigh torque estimate (Nm)
+75,tau_rl_calf,1,RL calf torque estimate (Nm)
+76,temp_fr_hip,0,FR hip temperature (slow-varying; off for kick training)
+77,temp_fr_thigh,0,FR thigh temperature
+78,temp_fr_calf,0,FR calf temperature
+79,temp_fl_hip,0,FL hip temperature
+80,temp_fl_thigh,0,FL thigh temperature
+81,temp_fl_calf,0,FL calf temperature
+82,temp_rr_hip,0,RR hip temperature
+83,temp_rr_thigh,0,RR thigh temperature
+84,temp_rr_calf,0,RR calf temperature
+85,temp_rl_hip,0,RL hip temperature
+86,temp_rl_thigh,0,RL thigh temperature
+87,temp_rl_calf,0,RL calf temperature
+88,battery_soc,1,Battery state of charge (%)
+89,bit_flag,0,System bit flags (near-constant on healthy robot)
